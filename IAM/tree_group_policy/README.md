@@ -13,7 +13,7 @@ optional arguments:
 
 実行してみるとこんなかんじ。  
 ```
-$ ./python tree_group_policy.py --group-name test_group
+$ python ./tree_group_policy.py --group-name test_group
 test_group
 ├─ AWSElasticBeanstalkEnhancedHealth
 ├─ AWSElasticBeanstalkMulticontainerDocker
