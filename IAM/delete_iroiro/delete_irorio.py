@@ -24,6 +24,11 @@ class group(iam):
         for user in users:
             self.iam_resource.remove_user(UserName=user.name)
 
+    def delete(self):
+        self.detach_all_policies()
+        self.remove_all_users()
+        super().delete()
+
 
 class role(iam):
     def __init__(self):
@@ -36,15 +41,16 @@ class role(iam):
             instance_profile.remove_role(RoleName=args.role_name)
             instance_profile.delete()
 
+    def delete(self):
+        self.detach_all_policies()
+        self.delete_instance_profiles()
+        super().delete()
+
 
 def main():
     if args.group_name:
-        group().detach_all_policies()
-        group().remove_all_users()
         group().delete()
     else:
-        role().detach_all_policies()
-        role().delete_instance_profiles()
         role().delete()
 
 
