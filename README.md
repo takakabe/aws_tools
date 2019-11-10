@@ -7,6 +7,6 @@ Useful AWS tools.
 [tree_group_policy.py](https://github.com/takakabe/aws_tools/blob/master/IAM/tree_group_policy/tree_group_policy.py) - Policies attached to groups are displayed in a tree format.
 
 ## S3
-[tree_group_policy.py](https://github.com/takakabe/aws_tools/tree/master/S3/delete_bucket/delete_bucket.py) - Delete the bucket from delete all objects version.  
+[delete_bucket.py](https://github.com/takakabe/aws_tools/tree/master/S3/delete_bucket/delete_bucket.py) - Delete the bucket from delete all objects version.  
 
 
