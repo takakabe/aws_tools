@@ -2,7 +2,7 @@
 Useful AWS tools.
 
 ## IAM
-[delete_group.py](https://github.com/takakabe/aws_tools/blob/master/IAM/delete_group/delete_group.py) - After detaching the policy, delete the user.  
+[delete_group.py](https://github.com/takakabe/aws_tools/blob/master/IAM/delete_group/delete_group.py) - After detaching the policy, delete the group.  
 [delete_role.py](https://github.com/takakabe/aws_tools/blob/master/IAM/delete_group/delete_role.py) - After detaching the policy and instance profile, delete the role.  
 [tree_group_policy.py](https://github.com/takakabe/aws_tools/blob/master/IAM/tree_group_policy/tree_group_policy.py) - Policies attached to groups are displayed in a tree format.
 
