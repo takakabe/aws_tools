@@ -8,12 +8,11 @@ usage: 'get_bucket_size.py [-h] --bucket BUCKET [--profile [PROFILE]]
 
 optional arguments:
   -h, --help           show this help message and exit
+  --profile [PROFILE]  Use a specific profile from your credential file.
+
 
 required arguments:
   --bucket BUCKET      The name of the bucket name.
-
-optional arguments:
-  --profile [PROFILE]  Use a specific profile from your credential file.
 ```
 
 ## demo
