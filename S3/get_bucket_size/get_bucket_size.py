@@ -35,9 +35,8 @@ class s3():
 if __name__ == "__main__": 
     parser = argparse.ArgumentParser(prog=__file__)
     required = parser.add_argument_group('required arguments')
-    optional = parser.add_argument_group('optional arguments')
     required.add_argument('--bucket',required=True, help='The name of the bucket name.')
-    optional.add_argument('--profile',nargs='?',default='default',help='Use a specific profile from your credential file.')
+    parser.add_argument('--profile',nargs='?',default='default',help='Use a specific profile from your credential file.')
     
     args = parser.parse_args()
     bucket_name = args.bucket
