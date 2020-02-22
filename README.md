@@ -11,6 +11,8 @@ Useful AWS tools!!!!!!!!!!!!!!!!!!!!!!
 [get_bucket_size.py](https://github.com/takakabe/aws_tools/tree/master/S3/get_bucket_size/) - Get the size of the S3 bucket.  
 [get_object_count.py](https://github.com/takakabe/aws_tools/tree/master/S3/get_object_count/) - Count object of the S3 bucket.
 
-
 ## EC2
 [delete_ami_snapshot.py](https://github.com/takakabe/aws_tools/tree/master/EC2/delete_ami_snapshot/) - Delete AMI and snapshot.  
+
+## Billing
+[get_monthly_cost.py](https://github.com/takakabe/aws_tools/tree/master/Billing/get_monthly_cost/) - Get monthly AWS cost.  
