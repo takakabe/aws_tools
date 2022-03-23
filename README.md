@@ -13,6 +13,7 @@ Useful AWS tools!!!!!!!!!!!!!!!!!!!!!!
 
 ## EC2
 [delete_ami_snapshot.py](https://github.com/takakabe/aws_tools/tree/master/EC2/delete_ami_snapshot/) - Delete AMI and snapshot.  
+[delete_instance.py](https://github.com/takakabe/aws_tools/tree/master/EC2/delete_instance/) - Delete EC2 Instance.
 
 ## Billing
 [get_monthly_cost.py](https://github.com/takakabe/aws_tools/tree/master/Billing/get_monthly_cost/) - Get monthly AWS cost.  
